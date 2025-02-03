@@ -52,12 +52,15 @@
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
-    transition: 0.35s ease;
-    line-height: 1;
+    transition: 0.3s ease;
+    user-select: none;
+    cursor: default;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 ::selection {
@@ -67,10 +70,7 @@
 
 body {
     background-color: var(--color-background);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
 }
 
 .surface {
