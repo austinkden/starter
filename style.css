@@ -57,6 +57,7 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     transition: 0.3s ease;
+    outline: none;
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
