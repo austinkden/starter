@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 :root {
-    --color-background: #000000;
-    --color-surface: #1A1D22;
-    --color-mid: #282E36;
-    --color-tile: #353D49;
-    --color-raised: #5B6470;
-    --color-primary: #8859FF;
-    --color-secondary: #4E3291;
-    --color-heading: #F2EDFF;
-    --color-text: #CAC9D1;
-    --color-dull-text: #94949C;
-    --color-success: #3CCB69;
-    --color-alert: #FF9757;
-    --color-destructive: #EB3F56;
+    --brand-background: #000000;
+    --brand-surface: #1A1D22;
+    --brand-mid: #282E36;
+    --brand-tile: #353D49;
+    --brand-raised: #5B6470;
+    --brand-primary: #8859FF;
+    --brand-secondary: #4E3291;
+    --brand-heading: #F2EDFF;
+    --brand-text: #CAC9D1;
+    --brand-dull-text: #94949C;
+    --brand-success: #3CCB69;
+    --brand-alert: #FF9757;
+    --brand-destructive: #EB3F56;
     /* --- */
     --color-red: #EB3F56;
     --color-red-light: #F56A71;
@@ -57,35 +57,32 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     transition: 0.3s ease;
-    user-select: none;
-    cursor: default;
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
 
 ::selection {
-    background-color: var(--color-primary);
-    color: var(--color-heading);
+    background-color: var(--brand-primary);
+    color: var(--brand-heading);
 }
 
 body {
-    background-color: var(--color-background);
+    background: var(--brand-background);
     min-height: 100vh;
-    padding: 20px;
 }
 
 .surface {
-    background-color: var(--color-surface);
+    background-color: var(--brand-surface);
 }
 
 .mid {
-    background-color: var(--color-mid);
+    background-color: var(--brand-mid);
 }
 
 .tile {
-    background-color: var(--color-tile);
+    background-color: var(--brand-tile);
 }
 
 .raised {
-    background-color: var(--color-raised);
+    background-color: var(--brand-raised);
 }
